@@ -34,13 +34,7 @@ you more information.
 ###Examples
 We've included all the used programs during the event in the examples of our HITBmirf library, when 
 imported correctly you can access them through the menu of your Arduino IDE.
-###Hardware
-Some of you have a ATmega328 and others have a ATmega328p both of the chips have the same pinout, but
-when flashing a new bootloader (if you ever going to do so) you need some changements in your IDE.
-If you copy the files of the <i> hardware</i> folder to the according location of your IDE you will notice
-that two new options are available in the boards menu of the Arduino IDE. (Tools -> Board).
-One of them is specific for uploading a new Arduino bootloader to a HITBadge with a ATmega328 (without the p).
-A short explanation for the most important programs.
+A short explanation for the programs used in the event:
 *HITBadgeClient <br>
 The program everyone got on their personal badge with their nickname acting as a address.
 *HITBadgeCommStation<br>
@@ -51,6 +45,14 @@ Some testing code
 The program used on the base stations during the after party to send everyone a message.
 *HITBadgeLEDRoutine
 A +/- 70 seconds during program which do all kinds of animations with the LED's.
+
+###Hardware
+Some of you have a ATmega328 and others have a ATmega328p both of the chips have the same pinout, but
+when flashing a new bootloader (if you ever going to do so) you need some changements in your IDE.
+If you copy the files of the <i> hardware</i> folder to the according location of your IDE you will notice
+that two new options are available in the boards menu of the Arduino IDE. (Tools -> Board).
+One of them is specific for uploading a new Arduino bootloader to a HITBadge with a ATmega328 (without the p).
+
 
 ##FTDI without DTR line
 To use a FTDI uploader without a DTR line add a line to your preferences.txt of your Arduino IDE
