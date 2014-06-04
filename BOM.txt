@@ -1,0 +1,41 @@
+Partlist exported from /home/ardillo/eagle/ownprojects/HITBadger/v0.1.sch at 3/24/14 9:44 PM
+
+Part          Value           Device           Package          Description                                        MF MPN OC_FARNELL OC_NEWARK POWER_JUMPER PROD_ID  
+ANALOG                        M06LOCK          1X06_LOCK        Header 6                                                                                             
+C1            0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C2            0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C7            18pF            CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C8            0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C9            0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C10           18pF            CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C11           0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C13           0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+C14           0.1uF           CAPPTH           CAP-PTH-SMALL    Capacitor                                                                                            
+D2            1N4004          1N4004           DO41-10          DIODE                                                                                                
+DIGITAL_PINS1                 M08LOCK          1X08_LOCK        Header 8                                                                                             
+DIGITAL_PINS2                 M08LOCK          1X08_LOCK        Header 8                                                                                             
+FRAME1        FRAME-LETTER    FRAME-LETTER     CREATIVE_COMMONS Schematic Frame                                                                                      
+J2            AVR_SPI         AVR_SPI_PRG_6PTH 2X3              AVR ISP 6 Pin                                                                                        
+J3            POWER_JACKPTH   POWER_JACKPTH    POWER_JACK_PTH   Power Jack                                                                                  PRT-00119
+JP1           FTDI_DEVICE     FTDI_DEVICE      FTDI_DEVICE_SIDE Connector which mates to FTDI basic or FTDI cable.                                                   
+MCP1700-3.3V                  MCP1700INLINE    TO92-INLINE      VOLTAGE REGULATOR                                                                                    
+MCP1702-5V                    MCP1700INLINE    TO92-INLINE      VOLTAGE REGULATOR                                                                                    
+NRF           NRF24L01+       NRF24L01+        2X4              .1" header, two rows of four.                                                                        
+ON                            LED3MM           LED3MM           LEDs                                                                                                 
+P3                            LED5MM           LED5MM           LEDs                                                                                                 
+P5                            LED5MM           LED5MM           LEDs                                                                                                 
+P6                            LED5MM           LED5MM           LEDs                                                                                                 
+P9                            LED5MM           LED5MM           LEDs                                                                                                 
+P13                           LED3MM           LED3MM           LEDs                                                                                                 
+POWER                         M05LOCK          1X05_LOCK        Header 5                                                                                             
+PWR_JMPR                      M03LOCK          1X03_LOCK        Header 3                                                                                             
+Q1            16MHz           CRYSTALHC49S     HC49/S           CRYSTAL                                                   1667008    unknown                         
+R1            330             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R2            330             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R3            330             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R4            10K             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R5            330             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R7            330             RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+R8            1.0K            RESISTORPTH-1/4W AXIAL-0.4        Resistor                                                                                             
+S1                            TAC_SWITCHPTH    TACTILE-PTH      Momentary Switch                                                                                     
+U2            ATMEGA328P_PDIP ATMEGA328P_PDIP  DIL28-3          uC used in the Arduino                                                                               
