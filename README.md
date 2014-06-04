@@ -35,15 +35,15 @@ you more information.
 We've included all the used programs during the event in the examples of our HITBmirf library, when 
 imported correctly you can access them through the menu of your Arduino IDE.
 A short explanation for the programs used in the event:
-*HITBadgeClient <br>
+* HITBadgeClient <br>
 The program everyone got on their personal badge with their nickname acting as a address.
-*HITBadgeCommStation<br>
+* HITBadgeCommStation<br>
 The program used on the base stations which where sending messages to the personal badges.
-*HITBadgeCommSend -Receive <br>
+* HITBadgeCommSend -Receive <br>
 Some testing code
-*HITBadgeComStationParty<br>
+* HITBadgeComStationParty<br>
 The program used on the base stations during the after party to send everyone a message.
-*HITBadgeLEDRoutine
+* HITBadgeLEDRoutine
 A +/- 70 seconds during program which do all kinds of animations with the LED's.
 
 ###Hardware
