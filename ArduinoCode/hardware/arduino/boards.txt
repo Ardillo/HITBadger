@@ -15,6 +15,7 @@ HITBadgeu.build.mcu=atmega328p
 HITBadgeu.build.f_cpu=16000000L
 HITBadgeu.build.core=arduino
 HITBadgeu.build.variant=standard
+HITBadgeu.upload.tool=arduino:avrdude
 
 ##############################################################
 
@@ -33,3 +34,4 @@ HITBadge.build.mcu=atmega328
 HITBadge.build.f_cpu=16000000L
 HITBadge.build.core=arduino
 HITBadge.build.variant=standard
+HITBadge.upload.tool=arduino:avrdude
