@@ -12,7 +12,7 @@ char nick[]="ardil"; //only first 5 chars of nickname
 char sender[]="     ";
 char receiver[]="     ";
 byte location;
-char print_buf[12];
+char print_buf[256];
 
 /// SETUP
 void setup() { 
