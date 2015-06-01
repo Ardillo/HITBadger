@@ -1,0 +1,49 @@
+{
+   "packages":[
+      {
+         "name":"HITBadger",
+         "maintainer":"Random Data Hackerspace",
+         "websiteURL":"http://www.randomdata.nl/wiki/index.php/HITBadger",
+		 "email":"",
+         "help":{
+            "online":"http://www.randomdata.nl/wiki/index.php/HITBadger"
+         },
+         "platforms":[
+            {
+               "name":"HITBadger Boards",
+               "architecture":"avr",
+               "version":"1.1.0",
+               "category":"HITBadger",
+               "url":"https://github.com/jprodgers/HITBadger/blob/master/ArduinoCode/hitbadger-1.1.0.tar.bz2",
+               "archiveFileName":"hitbadger-1.1.0.tar.bz2",
+               "checksum":"SHA-256:36bba710ccd2fe7ed3ac7939039604ed8ca1994aad816585e6ea94be0eda7a1b",
+               "size":"496128",
+			   "help":{
+                  "online":"https://forums.sparkfun.com"
+			   },
+			   "boards":[
+                  {
+                     "name":"HITBadge upload sketch (328 & 328P) + bootloader (328P)"
+                  },
+                  {
+                     "name":"HITBadge bootloader (328 no P)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[]
+      }
+   ]
+}
